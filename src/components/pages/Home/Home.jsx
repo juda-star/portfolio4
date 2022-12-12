@@ -2,14 +2,14 @@ import React from "react";
 import Hero from "../../features/Hero/Hero";
 import Navbar from "../../features/Navbar/Navbar";
 import Footer from "../../features/Footer/Footer";
-import About from "../About/About";
+import Project from "../Project/Project";
 
 function Home() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <About />
+      <Project />
       <Footer />
     </div>
   );

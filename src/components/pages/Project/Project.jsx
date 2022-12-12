@@ -12,7 +12,7 @@ function Project() {
       <HeroProject heading="PROJECT." text="Some of my most recent works" />
       <PortpolioCard />
       <PriceCard />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

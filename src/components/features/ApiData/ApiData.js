@@ -12,13 +12,15 @@ const DataProject = [
   {
     img: perfumeShop,
     title: "Ecommerce Website Design ",
-    description: "buy yourself something nice in perfume shop",
+    description:
+      "Feel Good When You Smell Good, try new perfume with Half Price",
     view: "google.com",
   },
   {
     img: TechCarrierProject,
     title: "Tech Career Hackathon Project",
-    description: "Model site for students, can take misson class from cloud, see events and grades",
+    description:
+      "Model site for students, can take misson class from cloud, see events and grades",
     view: "https://github.com/CHENZAUDA/Tech_Club",
   },
 ];

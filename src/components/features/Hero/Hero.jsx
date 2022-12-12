@@ -2,7 +2,6 @@ import React from "react";
 import "./Hero.css";
 import blue from "../../assets/blue.jpg";
 import att from "../../assets/at&t.jpeg";
-import linkdinBack from "../../assets/LinkedIn-banner-12.png";
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (

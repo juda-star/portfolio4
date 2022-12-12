@@ -4,8 +4,8 @@ const HeroProject = () => {
   return (
     <div className='hero-img'>
         <div className="heading">
-            <h1>This a heading</h1>
-            <p>This a text</p>
+            <h1>Contact</h1>
+            <p>Lets have a chat</p>
         </div>
     </div>
   )

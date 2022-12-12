@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./AboutCard.css";
-import useReducerPic from "../../assets/useReducer.jpeg"
+import useReducerPic from "../../assets/useReducer.jpeg";
+import google from "../../assets/google.jpeg";
 const AboutCard = () => {
   return (
-    <div className="aboutMe">
+    <div className="about">
       <div className="left">
         <h1>Who Am I</h1>
         <p>
@@ -16,13 +17,13 @@ const AboutCard = () => {
         </Link>
       </div>
       <div className="right">
-        <div className="pic">
-            <div className="img-top">
-                <img src={useReducerPic} className="useReducerPic" alt="true" />
-            </div>
-            <div className="img-bottom">
-                <img src={useReducerPic} className="useReducerPic" alt="true" />
-            </div>
+        <div className="img-container">
+          <div className="img-top">
+            <img src={useReducerPic} className="img" alt="true" />
+          </div>
+          <div className="img-bottom">
+            <img src={google} className="img" alt="true" />
+          </div>
         </div>
       </div>
     </div>
