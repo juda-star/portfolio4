@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <HeroProject />
+      {/* <HeroProject /> */}
       <Form />
       <Footer />
     </div>

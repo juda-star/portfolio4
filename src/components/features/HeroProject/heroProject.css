@@ -14,9 +14,11 @@
 }
 .hero-img::before{
 content: "";
-background: url("https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80");
+background: url("../../assets//google.jpeg");
 background-size: cover;
 background-position: center top;
+background-attachment: fixed;
+background-position: center;
 height: 100%;
 width: 100%;
 position: absolute;

@@ -1,18 +1,34 @@
 import React from "react";
 import "./from.css";
+import emailjs from "emailjs-com";
 const Form = () => {
+
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_bq00tmv",
+      "template_8awoubc",
+      e.target,
+      "user_F2sOkbXU6MFel9pj45ENo"
+    );
+  }
   return (
     <div>
-      <div className="form">
+      <div className="form" onSubmit={sendEmail}>
         <form>
           <label>Your Name</label>
-          <input type="text"></input>
+          <input id="name" name="name" type="text"></input>
           <label>Email</label>
-          <input type="email"></input>
+          <input id="userEmail" name="userEmail" type="email"></input>
           <label>Subject</label>
-          <input type="text"></input>
+          <input id="subject" name="subject" type="text"></input>
           <label>Message</label>
-          <textarea rows="6" placeholder="Type your message here"></textarea>
+          <textarea
+            name="message"
+            id="message"
+            rows="6"
+            placeholder="Type your message here ..."
+          ></textarea>
           <button className="btn">Submit</button>
         </form>
       </div>
